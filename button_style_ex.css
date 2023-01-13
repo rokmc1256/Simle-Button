@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #14213d;
+}
+
+button {
+    font-size: 3em;
+    background: none;
+    color: #ffb703;
+    padding: 15px 45px;
+    border: 2px solid;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+button:hover {
+    border-color: #c77dff;
+    color: white;
+    box-shadow: 0 4px 10px 1px #c77dff;
+    background: linear-gradient(to right, #0353a4, pink);
+    transform: translateY(-0.3em);
+}
